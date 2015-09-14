@@ -1,1 +1,558 @@
-Work in progress
+<!doctype html>
+<!doctype html>
+<!--
+  Content
+  Copyright 2015 Albert Lagman
+
+  Template uses
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Albert Lagman">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Albert Lagman</title>
+
+    <!-- Page styles -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.grey-indigo.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="custom.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-67538137-1', 'auto');
+     ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-font mdl-layout-title custom-nav-title">
+            albert.lagman
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a href="#top">
+                <button class="mdl-button mdl-js-button mdl-navigation__link mdl-typography--text-uppercase mdl-js-ripple-effect">Top</button>
+              </a>
+              <a href="#skills">
+                <button class="mdl-button mdl-js-button mdl-navigation__link mdl-typography--text-uppercase mdl-js-ripple-effect">Skills</button>
+              </a>
+              <a href="#projects">
+                <button class="mdl-button mdl-js-button mdl-navigation__link mdl-typography--text-uppercase mdl-js-ripple-effect">Projects</button>
+              </a>
+              <a href="#work">
+                <button class="mdl-button mdl-js-button mdl-navigation__link mdl-typography--text-uppercase mdl-js-ripple-effect">Work</button>
+                </a>
+              <a href="#academics">
+                <button class="mdl-button mdl-js-button mdl-navigation__link mdl-typography--text-uppercase mdl-js-ripple-effect">Academics</button>
+                </a>
+              <a href="#interests">
+                <button class="mdl-button mdl-js-button mdl-navigation__link mdl-typography--text-uppercase mdl-js-ripple-effect">Interests</button>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="android-font mdl-layout-title">
+          <div class="custom-drawer-title">albert.lagman</div>
+        </span>
+        <nav class="mdl-navigation">
+          <a href="#skills"><span class="mdl-navigation__link">Skills</span></a>
+          <div class="android-drawer-separator"></div>
+          <a href="#projects"><span class="mdl-navigation__link">Projects</span></a>
+          <div class="android-drawer-separator"></div>  
+          <a href="#work"><span class="mdl-navigation__link">Work</span></a>
+          <a class="mdl-navigation__link" href="#industry">Industry</a>
+          <a class="mdl-navigation__link" href="#volunteer">Volunteer</a>
+          <div class="android-drawer-separator"></div>
+          <a  href="#academics"><span class="mdl-navigation__link">Academics</span></a>
+          <a class="mdl-navigation__link" href="#schools">Schools</a>
+          <a class="mdl-navigation__link" href="#research">Research</a>
+          <a class="mdl-navigation__link" href="#awards">Awards</a>
+          <div class="android-drawer-separator"></div>
+          <a href="#interests"><span class="mdl-navigation__link">Interests</span></a>
+        </nav>
+      </div>
+      <div class="android-content mdl-layout__content">
+        <a id="top"></a>
+        <div class="custom-front-section mdl-typography--text-center">
+          <div class="android-font custom-slogan">Albert Lagman</div>
+          <div class="custom-logos">
+            <a href="mailto:info@albertlagman.com"><i class="material-icons custom-email-colour">email</i></a>
+            <a href="http://www.linkedin.com/in/albertlagman" target="_blank"><img class="custom-icon-colour" src="images/In-White-21px-TM.png"></img></a>
+            <a href="http://www.github.com/albertlagman" target="_blank"><img class="custom-icon-colour" src="images/GitHub-Mark-Light-32px.png"></img></a>
+          </div>
+          <div class="android-font custom-sub-slogan">Bachelor of Applied Science</div>
+          <div class="android-font custom-sub-slogan">Mechanical Engineering</div>
+          <div class="android-font custom-sub-slogan">Mechatronics Track</div>
+          <div class="android-font custom-sub-slogan">Minor in Commerce</div>
+          <div class="android-font custom-sub-slogan">mechatronics. robotics. AI. IoT. </div>
+            <a href="#skills">
+              <button class="android-fab custom-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                <i class="material-icons">expand_more</i>
+              </button>
+            </a>
+        </div>
+        <div class="android-more-section">
+          <a id="skills"></a>
+          <div class="android-section-title mdl-typography--display-2-color-contrast mdl-typography--font-thin">Skills</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/keyboard1.png">
+              </div>
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">Computers</h4>
+              </div>
+                <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                  <li>C/C++</li>
+                  <li>Python</li>
+                  <li>Shell Scripting</li>
+                  <li>MATLAB/R</li>
+                  <li>VBA</li>
+                  <li>Java</li>
+                  <li>FPGA (VHDL)</li>
+                  <li>HTML/CSS/Javascript</li>
+                  <li>Windows/Mac OSX/Linux/Unix</li>
+                </ul>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/facetracking1.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Robotics</h4>
+              </div>
+              <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                  <li>Robotics Operating System (ROS)</li>
+                  <li>Mapping</li>
+                  <li>Computer Vision (OpenCV)</li>
+                  <li>Artificial Intelligence (Pathfinding)</li>
+              </ul>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/microcomputer1.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Electrical</h4>
+              </div>
+              <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                  <li>Microcontrollers/ Microcomputers</li>
+                  <li>Oscilloscope</li>
+                  <li>Multimeter</li>
+                  <li>Breadboard Prototyping</li>
+                  <li>Soldering</li>
+                  <li>Semiconductors</li>
+                  <li>Sensors</li>
+              </ul>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/rover1.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Mechanical</h4>
+              </div>
+              <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                  <li>AutoCAD/SolidWorks/ Siemens NX (Unigraphics)/Blender</li>
+                  <li>Machining</li>
+                  <li>Hand Tools</li>
+                  <li>Drafting</li>
+                  <li>Analytical Modelling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a id="projects"></a>
+        <div class="android-wear-section">
+          <div class="android-wear-band">
+            <div class="android-wear-band-text">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin"><br>Projects</div>
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                A technical showcase of my personal, team and course projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="projects-snowbots-section mdl-typography--text-center">
+          <div class="mdl-typography--font-thin mdl-typography--display-2
+           projects-snowbots-title">UBC Snowbots Autonomous Vehicle Team</div>
+          <div class="mdl-typography--headline mdl-typography--font-thin projects-snowbots-subtitle">September 2014 - current<br>Student Team Project</div>
+        </div>
+        <div class="project-blurb">
+          <div class="mdl-typography--font-thin mdl-typography--headline-color-contrast">The future is autonomous...</div>
+          <div class="project-blurb-content mdl-typography--body-2-color-contrast mdl-typography--font-thin">
+          Initially beginning in the artificial intelligence sub-group of the software team, I found myself implementing pathfinding algorithms like A*. I eventually extended my responsibilities to include mapping implementations using Hector mapping, computer vision code in OpenCV and firmware development through Arduino. At the same time, my familiarity with the Robotics Operating System only improved as I did all of these. Come the International Ground Vehicle Competition in Michigan, the team won 4th place in design and 5th place in networking.
+          </div>
+        </div>
+        <div class="projects-this-site-section mdl-typography--text-center">
+          <div class="mdl-typography--font-thin mdl-typography--display-2
+           projects-this-site-title">albertlagman.com</div>
+          <div class="mdl-typography--headline mdl-typography--font-thin projects-this-site-subtitle">August 2015<br>Personal Project</div>
+        </div>
+        <div class="project-blurb">
+          <div class="mdl-typography--font-thin mdl-typography--headline-color-contrast">A learning experience from the ground up...</div>
+          <div class="project-blurb-content mdl-typography--body-2-color-contrast mdl-typography--font-thin">
+            This site was meant to be a learning experience for myself, while getting my name out there as I enter my final year in my mechatronics program. Having interest in the Internet of things and recognizing the prevalence of web technologies in general, I considered this an opportunity to gain a background in this field. Learning HTML, CSS and JavaScript mostly from scratch, I worked with Google’s Material Design Lite as a template and self-taught myself the syntax.
+          </div>
+        </div>
+        <div class="projects-temp-sensor-section mdl-typography--text-center">
+          <div class="mdl-typography--font-thin mdl-typography--display-2-color-contrast
+           projects-temp-sensor-title">Temperature and Humidity Sensor</div>
+          <div class="mdl-typography--headline-color-contrast mdl-typography--font-thin projects-temp-sensor-subtitle">June 2015<br>Personal Project</div>
+        </div>
+        <div class="project-blurb">
+          <div class="mdl-typography--font-thin mdl-typography--headline-color-contrast">Microcontrollers, web servers, drivers and beyond!</div>
+          <div class="project-blurb-content mdl-typography--body-2-color-contrast mdl-typography--font-thin">
+            I wanted to stretch my circuitry and low-level C driver abilities through the use of an Arduino microcontroller and a Raspberry Pi microcomputer. The temperature sensor was wired to the Arduino and it then sent the readings to the Pi through serial. The Pi then was set-up as a local Apache server and broadcasted a constantly updating site using Python through Flask.
+          </div>
+        </div>
+        <div class="projects-media-server-section mdl-typography--text-center">
+          <div class="mdl-typography--font-thin mdl-typography--display-2-color-contrast
+           projects-media-server-title">Home Media Server/Retro Video Game Console/Back-up Server</div>
+          <div class="mdl-typography--headline-color-contrast mdl-typography--font-thin projects-media-server-subtitle">March 2015 - April 2015<br>Personal Project</div>
+        </div>
+        <div class="project-blurb">
+          <div class="mdl-typography--font-thin mdl-typography--headline-color-contrast">Various projects born from various interests...</div>
+          <div class="project-blurb-content mdl-typography--body-2-color-contrast mdl-typography--font-thin">
+          This is a combination of a few smaller projects I did over spring. One of which was connecting all the smart devices in my apartment from a Samsung Smart TV, a Sony PlayStation 4, an Apple TV, a laptop, a Raspberry Pi and even an Android phone all to a barely used Mac mini. I remotely configured the mini through SSH and moved all the files to turn it into a network storage that also doubled as a Plex Media Server accessible to all the other devices. On the side, a Raspberry Pi with RetroPie connected to this server to play rare old video games.
+          </div>
+        </div>
+        <div class="projects-trailrider-section mdl-typography--text-center">
+          <div class="mdl-typography--font-thin mdl-typography--display-2-color-contrast
+           projects-trailrider-title">Trailrider</div>
+          <div class="mdl-typography--headline-color-contrast mdl-typography--font-thin projects-trailrider-subtitle">September 2014 - December 2015<br>Course Project</div>
+        </div>
+        <div class="project-blurb">
+          <div class="mdl-typography--font-thin mdl-typography--headline-color-contrast">Improving a product's design...</div>
+          <div class="project-blurb-content mdl-typography--body-2-color-contrast mdl-typography--font-thin">
+          I worked in a team of six to improve upon the current design of an off-road wheelchair by the BC Mobility Opportunities. In particular, I performed stress calculations for an adjustable handle design as well as simulated the suspension design through MATLAB. My whole team then compiled these design considerations into a 400-page formal report and presented it to panel.
+          </div>
+        </div>
+        <div class="projects-facetracker-section mdl-typography--text-center">
+          <div class="mdl-typography--font-thin mdl-typography--display-2
+           projects-facetracker-title">Face Tracking Camera</div>
+          <div class="mdl-typography--headline mdl-typography--font-thin projects-facetracker-subtitle">August 2014 - September 2014<br>Personal Project</div>
+        </div>
+        <div class="project-blurb">
+          <div class="mdl-typography--font-thin mdl-typography--headline-color-contrast">A robotics experiment...</div>
+          <div class="project-blurb-content mdl-typography--body-2-color-contrast mdl-typography--font-thin">
+          This project was a face tracking camera complete with mechanical movements to follow movements of a locked-on target. It involved the use of an Arduino for controlling the two servomotors and a Raspberry Pi for the OpenCV tracking Python script. The bracket attached to the servos was initially made of Papier Mache, but a plastic one was acquired later on.
+          </div>
+        </div>
+        <div class="projects-fpga-section mdl-typography--text-center">
+          <div class="mdl-typography--font-thin mdl-typography--display-2
+           projects-fpga-title">CPU and Tron Game on an FPGA Board</div>
+          <div class="mdl-typography--headline mdl-typography--font-thin projects-fpga-subtitle">January 2014 - April 2014<br>Course Project</div>
+        </div>
+        <div class="project-blurb">
+          <div class="mdl-typography--font-thin mdl-typography--headline-color-contrast">Low-level programming and hardware prototyping...</div>
+          <div class="project-blurb-content mdl-typography--body-2-color-contrast mdl-typography--font-thin">
+          I had two main projects using the FPGA board. The first was based on VHDL wherein a simple computer was made complete with an arithmetic logic unit, registers, accumulators and memory. The second project involved low-level C Programming to create a multiplayer 2D Tron Light Cycle game controlled using the switches on the device
+          </div>
+        </div>
+        <div class="projects-hovercraft-section mdl-typography--text-center">
+          <div class="mdl-typography--font-thin mdl-typography--display-2
+           projects-hovercraft-title">Arctic Hovercraft Project</div>
+          <div class="mdl-typography--headline mdl-typography--font-thin projects-hovercraft-subtitle">April 2013<br>Course Project</div>
+        </div>
+        <div class="project-blurb">
+          <div class="mdl-typography--font-thin mdl-typography--headline-color-contrast">The engineering design process...</div>
+          <div class="project-blurb-content mdl-typography--body-2-color-contrast mdl-typography--font-thin">
+          A prototype amphibious hovercraft was built by a team of seven with the use of lightweight materials, 3D printing, propellers and DC motors. By utilizing a methodological engineering design process paired with the creation of several physical and analytical prototypes, the team managed to complete five courses that consisted of maneuvering, speed and weight carrying. The design was then presented in the form of a report and presentation.
+          </div>
+        </div>
+        <div class="projects-supermileage-section mdl-typography--text-center">
+          <div class="mdl-typography--font-thin mdl-typography--display-2
+           projects-supermileage-title">UBC Supermileage</div>
+          <div class="mdl-typography--headline mdl-typography--font-thin projects-supermileage-subtitle">September 2012 - May 2013<br>Student Team Project</div>
+          <div class="mdl-typography--headline mdl-typography--font-thin projects-supermileage-credit">
+            Photo by: Kevan Cote
+          </div>
+        </div>
+        <div class="project-blurb">
+          <div class="mdl-typography--font-thin mdl-typography--headline-color-contrast">First foray into engineering...</div>
+          <div class="project-blurb-content mdl-typography--body-2-color-contrast mdl-typography--font-thin">
+          In this project, I participated in the mechanical team that created a fuel-efficient vehicle that competed in the Shell Eco-Marathon Americas. In particular, my team assessed 10 different engine starter solutions and did detailed design (CAD) of the decided mechanism. I was also provided an opportunity to tune, dismantle and rebuild the engine of the vehicle.
+          </div>
+        </div>
+        <a id="work"></a>
+        <div class="android-wear-section">
+          <div class="android-wear-band">
+            <div class="android-wear-band-text">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin"><br>Work Experience</div>
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                A collection of my experiences both in industry and volunteer work
+              </p>
+            </div>
+          </div>
+        </div>
+        <a id="industry"></a>
+        <div class="android-more-section custom-industry-height">
+          <div class="android-section-title mdl-typography--display-2-color-contrast mdl-typography--font-thin">Industry</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">Canada's Michael Smith Genome Science Centre, BC Cancer Agency</h4>
+              </div>
+              <div class="mdl-card__title work-subtitle">
+                <h4 class="mdl-card__subtitle-text">
+                  <i>Bioinformatics Co-op</i><br>
+                January 2015 - August 2015
+                </h4>
+              </div>
+              <div class="android-drawer-separator"></div>
+                <ul class="mdl-typography--font-light mdl-typography--subhead custom-bulleted-list">
+                  <li>Wrote over 23,000 lines of Python scripts, C++ code and shell scripts</li>
+                  <li>Actively contributed to a private GitHub repository</li>
+                  <li>Regularly investigated the sensitivity, specificity and scaling of different algorithms on datasets as large as the 20 Gb white spruce</li>
+                  <li>Created jobs for the processing of high performance computers</li>
+                  <li>Presented findings through data visualization in weekly small roundtable meetings and in quarterly Bioinformatics Technology Lab showcases.</li>
+                </ul>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">Automotive Fuel Cell Cooperation</h4>
+              </div>
+              <div class="mdl-card__title work-subtitle">
+                <h4 class="mdl-card__subtitle-text">
+                  <i>Unit Cell and Stack Architecture Co-op Student</i><br>
+                May 2014 - August 2014
+                </h4>
+              </div>
+              <div class="android-drawer-separator"></div>
+                <ul class="mdl-typography--font-light mdl-typography--subhead custom-bulleted-list">
+                  <li>Actively participated in a four-day planning workshop with Daimler, Ford, Nissan and NuCellSys engineers</li>
+                  <li>Effectively coordinated with the different validation and testing teams regarding the current major project of AFCC</li>
+                  <li>Interpreted and analyzed data from tests through coding hundreds of lines per week using VBA</li>
+                  <li>Participated and presented findings in front of a team of engineers and scientists once or twice a week</li>
+                  <li>Constructed mathematical models using MATLAB to validate theories on observed phenomena</li>
+                </ul>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">ERCO Worldwide</h4>
+              </div>
+              <div class="mdl-card__title work-subtitle">
+                <h4 class="mdl-card__subtitle-text">
+                  <i>Mechanical Co-op Student</i><br>
+                September 2013 – December 2013
+                </h4>
+              </div>
+              <div class="android-drawer-separator"></div>
+                <ul class="mdl-typography--font-light mdl-typography--subhead custom-bulleted-list">
+                  <li>Efficiently managed dozens of work orders in the sodium chlorate plant</li>
+                  <li>Facilitated the tasks for the plant maintenance shutdown</li>
+                  <li>Wrote capital requests and specifications for new equipment</li>
+                  <li>Created dozens of technical drawings such as loop diagrams and part designs using AutoCAD</li>
+                  <li>Oversaw weekly meetings with the members of different trades present in the maintenance team</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <a id="volunteer"></a>
+        <div class="android-more-section custom-volunteer-height">
+          <div class="android-section-title mdl-typography--display-2-color-contrast mdl-typography--font-thin">Volunteer</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">Kababayan Academic Mentorship Program</h4>
+              </div>
+              <div class="mdl-card__title work-subtitle">
+                <h4 class="mdl-card__subtitle-text">
+                  <i>Tutor</i><br>
+                January 2014 - May 2014
+                </h4>
+              </div>
+              <div class="android-drawer-separator"></div>
+                <ul class="mdl-typography--font-light mdl-typography--subhead custom-bulleted-list">
+                  <li>Tutors 30-40 newly arrived immigrants in Sir Charles Tupper Secondary School</li>
+                  <li>Assists immigrants in adapting to a new environment by serving as a model and brother</li>
+                </ul>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">Typhoon Haiyan Relief Work</h4>
+              </div>
+              <div class="mdl-card__title work-subtitle">
+                <h4 class="mdl-card__subtitle-text">
+                  <i>Overall Organizer</i><br>
+                November 2013 - December 2013
+                </h4>
+              </div>
+              <div class="android-drawer-separator"></div>
+                <ul class="mdl-typography--font-light mdl-typography--subhead custom-bulleted-list">
+                  <li>Raised a total of $15,000 for the victims of the recent Typhoon Haiyan</li>
+                  <li>Led a team of about 50 volunteers to appeal for aid from the whole UBC community for a span of two months</li>
+                  <li>Coordinated with the Young Filipino Professional Network for a one-night charity event</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <a id="academics"></a>
+        <div class="android-wear-section">
+          <div class="android-wear-band">
+            <div class="android-wear-band-text">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin"><br>Academics</div>
+            </div>
+          </div>
+        </div>
+        <a id="schools"></a>
+        <div class="android-more-section custom-industry-height">
+          <div class="android-section-title mdl-typography--display-2-color-contrast mdl-typography--font-thin">Schools</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">Undergraduate</h4>
+              </div>
+              <div class="android-drawer-separator"></div>
+                <ul class="mdl-typography--font-regular mdl-typography--subhead custom-list">
+                  <li>University of British Columbia (2011 - 2016)</li>
+                  <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                    <li>Bachelor of Applied Science in Mechanical Engineering</li>
+                    <li>Mechatronics Specialization</li>
+                    <li>Minor in Commerce</li>
+                  </ul>
+                  <li>University of the Philippines (2010 - 2011)</li>
+                  <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                    <li>Bachelor of Science in Computer Science (unfinished)</li>
+                  </ul>
+                </ul>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">High School</h4>
+              </div>
+              <div class="android-drawer-separator"></div>
+                <ul class="mdl-typography--font-regular mdl-typography--subhead custom-list">
+                  <li>Xavier School, Philippines (2006 - 2010)</li>
+                  <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                    <li>Graduated with distinction</li>
+                  </ul>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <a id="research"></a>
+        <div class="android-more-section custom-research-height">
+          <div class="android-section-title mdl-typography--display-2-color-contrast mdl-typography--font-thin">Research</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">LINKS: Scalable, alignment-free scaffolding of draft genomes with long reads</h4>
+              </div>
+              <div class="android-drawer-separator"></div>
+                <ul class="mdl-typography--font-regular mdl-typography--subhead custom-list">
+                  <li>Warren, R. L., Yang, C., Vandervalk, B. P., Behsaz, B., <b>Lagman, A.</b>, Jones, S. J., & Birol, I. (2015). LINKS: Scalable, alignment-free scaffolding of draft genomes with long reads. <i>GigaScience</i>, 4(1), 1-11.</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <a id="awards"></a>
+        <div class="android-more-section custom-research-height">
+          <div class="android-section-title mdl-typography--display-2-color-contrast mdl-typography--font-thin">Awards</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <ul class="mdl-typography--font-regular mdl-typography--subhead custom-list">
+                  <li>Rhodes Scholarship Candidate (2015)</li>
+                  <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                    <li>World-renowned scholarship for graduate studies in the University of Oxford</li>
+                  </ul>
+                  <li>UBC President's Entrance Scholarship (2011 - 2012)</li>
+                    <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                    <li>Granted from academic achievements prior to entering UBC</li>
+                  </ul>
+                  <li>Xavier Award (2008, 2010)</li>
+                  <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                    <li>Highest award for academics and character</li>
+                  </ul>
+                  <li>Magis Award (2009)</li>
+                  <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                    <li>Second Highest award for academics and character</li>
+                  </ul>
+                  <li>Best Class Adviser (2008)</li>
+                  <ul class="mdl-typography--font-light mdl-typography--subhead custom-list">
+                    <li>From the Para Kay Kiko tutorial program</li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a id="interests"></a>
+        <div class="custom-interests-section">
+          <div class="android-wear-band">
+            <div class="android-wear-band-text">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin"><br>Hobbies and Interests</div>
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                I have a life...<br>...
+                <br>...
+                <br>sometimes...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class=" custom-interests-height">
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__title">
+                <ul class="mdl-typography--font-regular mdl-typography--subhead custom-list">
+                  <li>Video Games 
+                    <div class="mdl-typography--font-thin custom-typography--interest-comments">(Snaaaaaaake!!!)</div>
+                  </li>
+                  <li>Movies 
+                    <div class="mdl-typography--font-thin custom-typography--interest-comments">(Are you not entertained?!)</div>
+                  </li>
+                  <li>Working Out 
+                    <div class="mdl-typography--font-thin custom-typography--interest-comments">(Needs 3000 calories a day)</div>
+                  </li>
+                  <li>Soccer 
+                    <div class="mdl-typography--font-thin custom-typography--interest-comments">(No clubs for me. Just Die Mannschaft)</div></li>
+                  <li>Running and Biking 
+                    <div class="mdl-typography--font-thin custom-typography--interest-comments">(Especially in parks!)</div></li>
+                  <li>Martial Arts (Tae Kwon Do and Judo) 
+                    <div class="mdl-typography--font-thin custom-typography--interest-comments">(It's all about leverage...)</div></li>
+                  <li>Golden Key International Honor Society (since 2012)</li>
+                  <li>UBC Kababayan Filipino Students Association (since 2011) <div class="mdl-typography--font-thin custom-typography--interest-comments">(former president too!)</div><li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-typography--font-thin custom-typography--edits">
+            Last modified September 13, 2015
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
