@@ -774,13 +774,9 @@ ul.custom-bulleted-list{
 }
 .custom-interests-section {
   position: relative;
+  height: 350px;
 /*  background: url('images/wear.png') center top no-repeat;
   background-size: cover;*/
-  height: 350px;
-  padding: 24px 0;
-  max-width: 1044px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .custom-typography--interest-comments
 {
