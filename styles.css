@@ -587,7 +587,96 @@ ul.custom-list{
   text-align: left;
   color: white;
 }
-
+.projects-laserscanner-section {
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/laserscanner3.jpg') center 30% no-repeat;
+  background-size: cover;
+  }
+  .projects-laserscanner-title {
+  padding-top: 200px;
+  padding-left: 200px;
+  padding-right: 400px;
+  text-align: left;
+  vertical-align: middle;
+  color: white;
+}
+.projects-laserscanner-subtitle {
+  padding-left: 200px;
+  text-align: left;
+  color: white;
+}
+.projects-accelerometer-section {
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/accelerometer4.jpg') center 30% no-repeat;
+  background-size: cover;
+  }
+  .projects-accelerometer-title {
+  padding-top: 20px;
+  padding-left: 500px;
+  padding-right: 100px;
+  text-align: right;
+  vertical-align: middle;
+  color: black;
+}
+.projects-accelerometer-subtitle {
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-right: 100px;
+  text-align: right;
+  color: black;
+}
+.projects-linetrace-section {
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/linetrace4.jpg') center 30% no-repeat;
+  background-size: cover;
+  }
+.projects-linetrace-title {
+  padding-top: 20px;
+  padding-left: 600px;
+  padding-right: 100px;
+  text-align: right;
+  vertical-align: middle;
+  color: black;
+}
+.projects-linetrace-subtitle {
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-right: 100px;
+  text-align: right;
+  color: black;
+}
+.projects-elevator-section {
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/elevator1.jpg') center 30% no-repeat;
+  background-size: cover;
+  }
+.projects-elevator-title {
+  padding-top: 200px;
+  padding-left: 700px;
+  padding-right: 100px;
+  text-align: right;
+  vertical-align: middle;
+  color: white;
+}
+.projects-elevator-subtitle {
+  padding-left: 200px;
+  padding-top: 100px;
+  padding-right: 100px;
+  text-align: right;
+  color: white;
+}
 .projects-temp-sensor-section {
   position: relative;
   height: 800px;
@@ -934,6 +1023,90 @@ a {
     color: white;
     font-size: 18px;
   }
+  .projects-laserscanner-title {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 21px;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+  }
+  .projects-laserscanner-subtitle {
+    padding-left: 8px;
+    padding-right: 0px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+  }
+  .projects-laserscanner-section{
+    height: 325px;
+  }
+  .projects-accelerometer-title {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 175px;
+    text-align: right;
+    font-size: 21px;
+    vertical-align: middle;
+    line-height: 40px;
+    color: black;
+  }
+  .projects-accelerometer-subtitle {
+    padding-left: 200px;
+    padding-right: 5px;
+    padding-top: 10px;
+    text-align: right;
+    color: black;
+    font-size: 18px;
+  }
+  .projects-accelerometer-section{
+    height: 325px;
+  }
+  .projects-linetrace-title {
+    padding-top: 50px;
+    padding-right: 5px;
+    padding-left: 200px;
+    text-align: right;
+    font-size: 21px;
+    vertical-align: middle;
+    line-height: 40px;
+    color: black;
+  }
+  .projects-linetrace-subtitle {
+    padding-left: 200px;
+    padding-right: 5px;
+    padding-top: 10px;
+    text-align: right;
+    color: black;
+    font-size: 18px;
+  }
+  .projects-linetrace-section{
+    height: 325px;
+  }
+  .projects-elevator-title {
+    padding-top: 80px;
+    padding-right: 5px;
+    padding-left: 200px;
+    text-align: right;
+    font-size: 21px;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+  }
+  .projects-elevator-subtitle {
+    padding-left: 200px;
+    padding-right: 5px;
+    padding-top: 10px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+  }
+  .projects-elevator-section{
+    height: 325px;
+  }
+
   .projects-snowbots-title {
     padding-top: 50px;
     padding-right: 100px;
