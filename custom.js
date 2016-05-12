@@ -12,3 +12,27 @@ $(function() {
     }
   });
 });
+
+window.onload = function ()
+{
+  if(window.location.hash){
+    var getHash = window.location.hash;
+    getHash = getHash.substr(2);
+    window.location.hash=getHash; 
+  }
+}
+
+$(document).ready(function() {
+    $(".various").fancybox({
+            padding     : 2,
+            maxWidth    : 800,
+            maxHeight   : 600,
+            fitToView   : false,
+            width       : '70%',
+            height      : '70%',
+            autoSize    : false,
+            closeClick  : false,
+            openEffect  : 'none',
+            closeEffect : 'none'
+        });
+})
