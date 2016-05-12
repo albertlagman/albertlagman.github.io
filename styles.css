@@ -987,12 +987,15 @@ a {
   color: white;
   vertical-align: middle;
   opacity: .54;
+  font-size: 50px;
 }
 .custom-email-colour:hover{
   opacity: 1.0;
 }
 .custom-icon-colour{
   opacity: .54;
+  height: 40px;
+  width: auto;
 }
 .custom-icon-colour:hover{
   opacity: 1.0;
@@ -1076,7 +1079,6 @@ a {
 
 @media (max-width: 900px) {
     /**** Albert's Custom Mobile Styles ****/
-
   .projects-this-site-title {
     padding-left: 10px;
     text-align: left;
@@ -1334,4 +1336,20 @@ a {
     background-color: #59595a;
     margin: 8px 0;
   }
+  .custom-email-colour{
+    color: white;
+    vertical-align: middle;
+    font-size: 24px;
+    padding-right: 0px
+  }
+  .custom-icon-colour{
+    height: 24px;
+    width: auto;
+    padding-right: 0px
+  }
+  .custom-logos {
+  padding-right:0px;
+  margin: 0 16px;
+  text-align: right;
+}
   }
