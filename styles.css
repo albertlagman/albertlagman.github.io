@@ -512,7 +512,9 @@ a img{
   position: absolute;
   bottom: 0;
 }
-
+.custom-skills-padding {
+  padding-bottom: 100px;
+}
 .android-navigation .mdl-navigation__link:hover {
       border-bottom: 4px solid #e0e0e0;
 }
