@@ -203,6 +203,12 @@ a img{
   color: #767777;
   font-weight: 300;
 }
+.julius-font {
+  font-family: 'Julius Sans One', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #333366;
+  font-weight: 300;
+}
 
 .android-slogan {
   font-size: 60px;
@@ -894,7 +900,7 @@ a {
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/frontpage3.jpg') center 30% no-repeat;
+  background: url('images/frontpage7.jpg') center 30% no-repeat;
   background-size: cover;
 }
 .custom-slogan {
