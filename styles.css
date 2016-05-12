@@ -523,6 +523,7 @@ a img{
 
 .android-drawer span.mdl-navigation__link.mdl-navigation__link {
     color: #214a7b;
+    font-weight: bold;
 }
 
 .android-drawer .mdl-layout-title {
@@ -556,6 +557,7 @@ ul.custom-list{
   line-height: 70px;
   background-color: transparent !important;
   border-bottom: 4px solid transparent;
+  font-family:"Roboto","Helvetica","Arial",sans-serif;
 }
 
 .android-wear-band-text {
@@ -591,7 +593,9 @@ ul.custom-list{
 {
   background: rgb(255, 255, 255)}
 
-
+.projects-video-text {
+  text-transform: none;
+}
 .projects-this-site-section {
   position: relative;
   height: 800px;
