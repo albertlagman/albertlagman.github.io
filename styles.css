@@ -160,17 +160,18 @@ a img{
 
 .android-drawer {
   border-right: none;
+  background-color: #e1e1e1;
 }
 
   .android-drawer-separator {
     height: 1px;
-    background-color: #dcdcdc;
+    background-color: #cbcbcb;
     margin: 8px 0;
   }
 
   .android-drawer .mdl-navigation__link.mdl-navigation__link {
     font-size: 14px;
-    color: #757575;
+    color: #000000;
   }
 
   .android-drawer span.mdl-navigation__link.mdl-navigation__link {
@@ -488,13 +489,26 @@ a img{
 }
 
 /**** Albert's Custom Styles ****/
+::-moz-selection
+{
+  background: #214a7b;
+  text-shadow: none
+}
+
+
+::selection
+{
+  background: #214a7b;
+  text-shadow: none
+}
+
 .custom-nav-title {
   font-weight: bold;
-  color: #120E0E;
+  color: #214a7b;
 }
 .custom-drawer-title {
   font-weight: bold;
-  color: #fafafa;
+  color: #FFFFFF;
   position: absolute;
   bottom: 0;
 }
@@ -508,12 +522,12 @@ a img{
 }
 
 .android-drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: rgb(83,109,254);
+    color: #214a7b;
 }
 
 .android-drawer .mdl-layout-title {
     position: relative;
-    background: rgb(83,109,254);
+    background: #214a7b;
     height: 100px;
 }
 
@@ -523,6 +537,9 @@ a img{
 .android-sub-slogan {
   font-size: 21px;
   padding-top: 18px;
+}
+.android-wear-band {
+  background-color: #214a7b;
 }
 ul.custom-list{
   padding-left: 26px;
@@ -549,6 +566,32 @@ ul.custom-list{
   text-align: left;
   color: white;
 }
+.mdl-button--fab.mdl-button--colored
+{
+  background: #214a7b;
+  color: rgb(255, 255, 255)}
+
+
+.mdl-button--fab.mdl-button--colored:hover
+{
+  background-color: #345b91}
+
+
+.mdl-button--fab.mdl-button--colored:focus:not(:active)
+{
+  background-color: #345b91}
+
+
+.mdl-button--fab.mdl-button--colored:active
+{
+  background-color: #345b91}
+
+
+.mdl-button--fab.mdl-button--colored .mdl-ripple
+{
+  background: rgb(255, 255, 255)}
+
+
 .projects-this-site-section {
   position: relative;
   height: 800px;
@@ -909,7 +952,7 @@ a {
   text-align: right;
   padding-right: 50px;
   color: white;
-  opacity: .54
+  opacity: .75
 }
 
 .custom-sub-slogan {
@@ -918,7 +961,7 @@ a {
   text-align: right;
   padding-right: 50px;
   color: white;
-  opacity: .54
+  opacity: .75
 }
 .custom-logos {
   padding-right:50px;
@@ -1011,6 +1054,9 @@ a {
     display: none;
   }
 }
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover
+{
+  background-color: #cbcbcb}
 
 @media (max-width: 900px) {
     /**** Albert's Custom Mobile Styles ****/
@@ -1256,15 +1302,20 @@ a {
     height: 350px;
   }
   .custom-slogan {
-    font-size: 26px;
+    font-size: 24px;
     margin: 0 16px;
     padding-top: 150px;
     padding-right: 0px;
   }
   .custom-sub-slogan {
-    font-size: 10px;
+    font-size: 8px;
     margin: 0 16px;
     padding-top: 8px;
     padding-right: 0px;
   }
-}
+  .custom-drawer-separator {
+    height: 1px;
+    background-color: #59595a;
+    margin: 8px 0;
+  }
+  }
